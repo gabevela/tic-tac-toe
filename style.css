@@ -1,20 +1,41 @@
 * {
     box-sizing      : border-box;
-    background-color: grey;
+    background-color: rgb(111, 168, 212);
+}
+
+.game-grid {
+    display        : grid;
+    justify-content: center;
+    justify-items  : center;
 }
 
 .reset {
-    background-color: yellow;
+    background-color: whitesmoke;
 }
 
 .main-grid {
+    justify-content      : center;
+    align-content        : center;
     display              : grid;
+    width                : 100vw;
+    height               : 100vh;
     grid-template-rows   : 50px 50px 50px;
     grid-template-columns: 50px 50px 50px;
 }
 
+.title {
+    font-style : italic;
+    font-size  : xx-large;
+    font-weight: 900;
+
+}
+
+.reset {
+    font-style: italic;
+    font-size : medium;
+}
+
 .grid-cell {
-    background-color: beige;
-
-
+    background-color: whitesmoke;
+    font-size       : xx-large;
 }
